@@ -1,6 +1,6 @@
 function calcularJurosCompostos(principal, taxa, tempo) {
-    const juros = principal * (1 + taxa) ** tempo;
-    return juros;
-  }
-  
-  module.exports = { calcularJurosCompostos };
+  const jurosCompostos = principal * Math.pow(1 + taxa / 100, tempo) - principal;
+  return jurosCompostos;
+}
+
+export default calcularJurosCompostos;
