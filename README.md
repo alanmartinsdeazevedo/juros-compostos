@@ -7,3 +7,6 @@ Sistema para calcular juros compostos.
 * Exibir resultados em formato de tabela.
 
 ## Uso
+
+## Licença
+Este projeto é liberado sob a licença MIT. Você pode usar, modificar e distribuir o código livremente, desde que mencione a licença como parte de qualquer distribuição.
