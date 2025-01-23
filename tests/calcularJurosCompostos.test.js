@@ -1,4 +1,4 @@
-const { calcularJurosCompostos } = require('../src/calculo');
+import calcularJurosCompostos from '../src/calculo';
 
 describe('calcularJurosCompostos', () => {
   it('deve calcular juros compostos corretamente', () => {
