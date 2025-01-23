@@ -59,6 +59,15 @@ Se os dados forem válidos, a aplicação retornará o valor dos juros compostos
 R$ 795.86
 ```
 
+### Executando os Testes
+O projeto utiliza o framework Jest para testes automatizados. Para rodar os testes, use o comando:
+```bash
+npm test
+# ou
+yarn test
+```
+Os testes estão localizados no diretório tests e verificam a lógica de cálculo de juros compostos.
+
 ### Testando com o Postman ou cURL
 
 #### Usando cURL:
@@ -90,10 +99,13 @@ curl -X POST http://localhost:3000/calcular \
 calculadora-juros-compostos/
 │
 ├── src/
-│   ├── calculo.js      # Função para calcular juros compostos
+│   ├── calculo.js                     # Função para calcular juros compostos
 │
-├── app.js              # Servidor principal
-├── package.json        # Configuração do projeto Node.js
-├── README.md           # Instruções de uso
-├── .gitignore          # Arquivos a serem ignorados pelo Git
+├── tests/
+│   ├── calcularJurosCompostos.test.js # Teste unitário para a lógica de cálculo
+│
+├── app.js                             # Servidor principal
+├── package.json                       # Configuração do projeto Node.js
+├── README.md                          # Instruções de uso
+├── .gitignore                         # Arquivos a serem ignorados pelo Git
 ```
